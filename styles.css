@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+button {
+    padding: 10px 0;
+    font-size: large;
+    flex: 1;
+    text-align: center;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    width: 50%;
+}
+
+.collumns{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.collumn{
+    padding: 15px;
+}
+
+.blue{
+    flex:0.5;
+    background-color: blue;
+}
+
+.green{
+    flex:0.5;
+    background-color: green;
+}
+
+img{
+    max-width: 30vw;
+    width: 100%; 
+    height: 200px; 
+    object-fit: fill;
+}
