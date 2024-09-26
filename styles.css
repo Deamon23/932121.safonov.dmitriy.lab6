@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +32,7 @@ button {
 }
 
 .collumns{
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: row;
 }
@@ -41,18 +42,18 @@ button {
 }
 
 .blue{
-    flex:0.5;
+    width: 100%;
     background-color: blue;
 }
 
 .green{
-    flex:0.5;
+    width: 30px;
     background-color: green;
 }
 
 img{
     max-width: 30vw;
     width: 100%; 
-    height: 200px; 
+    height: 240px; 
     object-fit: fill;
 }
